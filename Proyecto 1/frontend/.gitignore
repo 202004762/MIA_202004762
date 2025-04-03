@@ -1,0 +1,25 @@
+# node_modules y lockfiles
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Entornos
+.env
+.env.*.local
+
+# Salida de build de Vite
+dist/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Archivos del sistema / editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
